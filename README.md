@@ -1,4 +1,4 @@
-LMAG
+LMAGA
 ==========
 
 trash repository
