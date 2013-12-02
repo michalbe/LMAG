@@ -1,12 +1,13 @@
 module.exports = function(grunt) {
 
-  // // Project configuration.
-  // grunt.initConfig({
-  //   pkg: grunt.file.readJSON('package.json'),
-  //   default: function
-  // });
-
-  grunt.registerTask('default', 'Log some stuff.', function() {
-    grunt.log.write('Working...').ok();
+  // Project configuration.
+  grunt.initConfig({
+    jshint: {
+      all: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js']
+    }
   });
+
+  grunt.loadNpmTasks('grunt-contrib-jshint');
+
+  grunt.registerTask('default', ['jshint']);
 };
