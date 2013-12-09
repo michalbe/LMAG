@@ -8,7 +8,9 @@ var LMAG = {
     }
   }
 };
+
 var GAME = function() {
     LMAG.engine.main.run();
 };
-var game = new GAME(); game.run();
+
+GAME();
