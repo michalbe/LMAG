@@ -1,4 +1,4 @@
-LMAGa
+LMAG
 ==========
 
-trash repository
+test readme
