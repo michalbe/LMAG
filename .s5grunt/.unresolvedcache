@@ -1,0 +1,16 @@
+/*grunt-created*/
+var LMAG = {
+  engine: {
+    main: {
+      run: function(){
+        alert('hello!');
+      }
+    }
+  }
+};
+
+var GAME = function() {
+    LMAG.engine.main.run();
+};
+
+GAME();
