@@ -33,4 +33,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-dependency-resolver');
   
   grunt.registerTask('default', ['jshint', 'resolveDependencies']);
+
 };
